@@ -1,0 +1,90 @@
+@import url(../css/style-header.css);
+@import url(../css/style-footer.css);
+
+
+/* FORMULARIO */
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    background-image: url("../image/alimentos-organicos.jpg");
+    background-position: center;
+    background-size:cover;
+    background-position: center;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    
+    form{
+        width: 60%;
+        background-color: rgb(233, 198, 156);
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        
+        h2{
+            padding: 1rem;
+        }
+        label{
+            padding-top: 5px;
+        }
+         
+        input, textarea, select{
+            width: 100%;
+            display: inline-block;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #71b050;
+            color: white;
+            padding: 14px 10px 10px 14px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 8px 0;
+        }
+
+        button:hover {
+            background-color: #106622;
+}
+    }
+}
+
+/* Adaptar el diseño para celulares */
+@media (max-width: 769px) {
+    .contact-container {
+        background-position:center;
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    input, select, textarea {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 1.1rem;
+    }
+    form{
+        max-width: 100%;
+    }
+    .footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px auto;
+    padding: 15px;
+    
+}
+}
+
+

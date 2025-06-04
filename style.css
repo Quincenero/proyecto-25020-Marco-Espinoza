@@ -1,0 +1,102 @@
+@import url(css/style-header.css);
+@import url(css/style-footer.css);
+
+/* Banner */
+
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 500px;
+    background-size: cover;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background:transparent;
+    padding: 10px;
+
+    h2{
+        padding: 5px;
+    }
+    p{
+        padding-bottom: 15px;
+    }
+    a{
+    text-decoration: none;
+    padding: 10px;
+   }
+
+    .btn{
+        color:white;
+        background-color: rgb(78, 235, 78);
+        padding: 8px;
+        border-radius: 10px;
+        font-weight: 700;
+    }
+}
+
+/* Cards */
+.ofertas h1{
+    color: chartreuse;
+    margin-left: 25px;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    height: auto;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+    .card-content{
+        display: flex;
+        flex-direction: column;
+
+        h3{
+            color: rgb(129, 215, 66);
+        }
+        p{
+            color: rgb(56, 56, 194);
+            font-size: 1.1rem;
+        }
+        a{
+            text-decoration: none;
+            border: 1px ;
+            padding: 8px;
+            background-color: rgb(129, 215, 66);
+            border-radius: 5px;
+            color: white;
+        }
+        a:hover{
+            background-color: chartreuse;
+        }
+    }
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+@media(max-width:580){
+    .banner img{
+        margin: 0;
+        background-position: center;
+        background-size: auto;
+    }
+}
