@@ -9,7 +9,7 @@
 }
 
 .banner img {
-    width: 100%;
+    width: 90%;
     max-height: 500px;
     background-size: cover;
 }
@@ -46,7 +46,7 @@
 /* Cards */
 .ofertas h1{
     color: chartreuse;
-    margin-left: 25px;
+    margin: 15px 0 15px 85px;
 }
 .card-container {
     display: flex;
