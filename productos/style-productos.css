@@ -1,6 +1,16 @@
 @import url(../css/style-header.css);
 @import url(../css/style-footer.css);
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: "Montserrat", sans-serif;
+}
+
 
 .productos h1{
     color: chartreuse;
